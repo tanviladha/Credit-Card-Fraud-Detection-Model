@@ -1,6 +1,7 @@
 # Credit-Card-Fraud-Detection-Model
 Using a Kaggle dataset and my experience from participation in UCLA's Break Through Tech AI program, I created a logistic regression model based on the cited dataset to predict whether a credit card transaction was fraud or not. 
 The dataset used can be found here: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023?resource=download
+Find the Jupyter Notebook within this repository to view the model. 
 
 **Evaluation of the Dataset**
 According to the Kaggle description, this dataset originates from the credit card transactions made by European cardholders in 2023, fairly recent. To protect the privacy of the cardholders, the sensitive information has been removed. Features V1-V28 have been anonymized to protect user privacy. These features represent different transaction attributes (time, location, etc.). Other features include id and amount. The label was known as 'class' or a binary value to indicate whether fraud or not. While the anonymization of the features is beneficial to user privacy, it also proved to be a drawback. It made it difficult to see what features went on into predicting the label. Furthermore if correlations were studied, it would just tell us which column had which correlation rather than what kind of data that column held. Yet, all in all, user privacy/data privacy is an important aspect to consider when collecting data. 
